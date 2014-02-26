@@ -1,0 +1,60 @@
+//sentence structures
+array pronouns = {"i","you","her","me"}
+array prepasition = {"to","in","around","to","behind","infront","beside","under","ontop","above","underneath"}
+array BadWords = {}
+string astric = "*"
+array GoodWords = {}
+
+//mood
+int Mood_of_IA = 0
+
+
+
+Letters = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"}
+LettersC = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"}
+string stringIN = ""
+
+//replace cap in strings for IA just doesnt care about thoughs==============================================
+for(int i=0;i<26;i++;){
+    if (stringIN.contains(Letter[i])){
+        string.replace(Letter[i],LetterC[i]);
+    };
+};
+
+//replace bad words with astrics and decrements IA's mood===================================================
+for(int i=0;i<BadWords.length();i++){
+    if (stringIN.contains(BadWords[i])){
+        string.replace(Letter[i],astric.rep(BadWords[i].length()));
+        Mood_of_IA = Mood_of_IA-20;
+    };
+};
+
+
+
+
+
+
+String s1 = "The quick brown fox jumps over the lazy dog";
+boolean b = s1.contains(s2);
+System.out.println(b);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
