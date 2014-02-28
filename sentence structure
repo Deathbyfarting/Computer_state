@@ -1,9 +1,17 @@
 //sentence structures
-array pronouns = {"i","you","her","me"}
+array pronouns_me = {"i","me","myself",""}
+array pronouns_you = {"you","her","him",""}
+array nouns_Names = {"caleb","ia"}
+array nouns_places = {"walmart","CCCC","bits and bytes"}
+array nouns_things = {"stick","computer","stool","chair","table","keyboard","air","watch","eraser","flownder"}
+array articals = {"the","a","an"}
 array prepasition = {"to","in","around","to","behind","infront","beside","under","ontop","above","underneath"}
 array BadWords = {}
 string astric = "*"
 array GoodWords = {}
+boolean directedTowards_AI     = false
+boolean directedTowards_Them   = false
+boolean directedTowards_others = tru
 
 //mood
 int Mood_of_IA = 0
@@ -34,7 +42,14 @@ for(int i=0;i<BadWords.length();i++){
     };
 };
 
-
+/* With this program i plan to institute a simple chat prog the following is the logic of this system. I plan to do the folowing
+1:discard all articals on input (they aren't need for analisis)
+2:place all words in a array
+3:id all verbs/modifiers
+4:id all nouns the verbs are attached to
+5:id the porpuse of the sentence IE: a command, someone being a little crap, a statement, info
+6:run a sentence construction useing the key facts pull from sentence decunstruction.
+7:
 
 
 
