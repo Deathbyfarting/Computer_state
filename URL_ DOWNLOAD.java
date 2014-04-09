@@ -1,7 +1,6 @@
 
 
 
-
 public static void main(String[] args) {
     URL url;
     InputStream is = null;
