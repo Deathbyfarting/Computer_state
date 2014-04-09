@@ -1,4 +1,3 @@
-
 import java.Math;
 int[] Weight = {};
 
