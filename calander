@@ -1,29 +1,29 @@
 
 
-String[] Day = {"january","febuary","march","april","may","june","july","august","september","october","november","december"}
+String[][][] = {
+{{}},
+{{}},
+{{}},
+{{}}
+}
 
-String[][][][] Calander = {
-"january" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"febuary" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"march" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"april" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"may" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"june" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"july" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"august" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"september" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"october" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"november" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
-"december" = {monday = {event = {}},tuesday ={event = {}},wensday = {event = {}},thursday = {event = {}},friday = {event = {}},saturday = {event = {}},sunday = {event = {}}}
+public static checkCalander(int MONTH,int DAY,boolean thisYear,int daysAdv){
+for(int i=0;daysAdv>i;i++){
+for(int j=0;EVENT.length>j;j++){
+if(EVENT[MONTH][DAY][]==null){}else{return EVENT[MONTH][DAY][];}
+}}
+return null;
 };
+public static EventsToday(){
 
-public String FindEvent(int year,int month,int day){
-int leap = 0;
-if(year%4==0 && )
 
-return Calander[Day[month],day%7+leap,]
+}
 
-};
+
+
+
+
+
 
 
 
