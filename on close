@@ -11,3 +11,5 @@ frame.addWindowListener(new java.awt.event.WindowAdapter() {
         }
     }
 });
+
+http://docs.oracle.com/javase/tutorial/uiswing/components/progress.html
